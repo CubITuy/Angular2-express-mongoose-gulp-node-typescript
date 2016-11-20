@@ -6,3 +6,12 @@
         </div>
     </div>
 </div>
+
+<h3>Top Personas</h3>
+<div class="row">
+    <div *ngFor="let persona of personas" (click)="gotoDetail(persona)" class="col-md-3">
+        <div class="module persona">
+            <h4>{{persona.primerNombre}}</h4>
+        </div>
+    </div>
+</div>

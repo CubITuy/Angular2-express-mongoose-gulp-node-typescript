@@ -19,19 +19,29 @@ import {PersonaService} from "../../services/persona.service";
 
 export class DashboardComponent implements OnInit {
     heroes: Hero[] = [];
+    personas: Persona[] = [];
 
     constructor(
         private router: Router,
-        private heroService: HeroService) {
+        private heroService: HeroService,
+        private personaService: PersonaService) {
     }
 
     ngOnInit() {
         this.heroService.getHeroes()
             .then(heroes => this.heroes = heroes);
+            
+        this.personaService.getPersonas()
+            .then(personas => this.personas = personas);    
     }
 
     gotoDetail(hero: Hero) {
         let link = ['/detail', hero._id];
+        this.router.navigate(link);
+    }
+    
+    gotoPersonaDetail(persona: Persona) {
+        let link = ['/personadetail', persona._id];
         this.router.navigate(link);
     }
 }

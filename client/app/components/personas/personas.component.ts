@@ -29,7 +29,7 @@ export class PersonasComponent implements OnInit {
     }
     onSelect(persona: Persona) { this.selectedPersona = persona; }
 
-    gotoDetail() {
+    gotoPersonaDetail() {
         this.router.navigate(['/personadetail', this.selectedPersona._id]);
     }
 

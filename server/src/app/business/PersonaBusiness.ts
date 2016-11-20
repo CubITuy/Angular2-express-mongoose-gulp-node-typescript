@@ -15,7 +15,7 @@ class PersonaBusiness implements IPersonaBusiness {
         this._personaRepository = new PersonaRepository();
     }
 
-    create(item: IPersonaModel, callback: (error: any, result: any) => void) {
+    create(item: IPersonaModel, callback: (error: any, result: any) => void) {        
         this._personaRepository.create(item, callback);
     }
 
