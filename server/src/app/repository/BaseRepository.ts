@@ -5,6 +5,7 @@
 import IRead = require("./interfaces/Read");
 import IWrite = require("./interfaces/Write");
 import IHeroModel = require("./../model/interfaces/HeroModel");
+import IPersonaModel = require("./../model/interfaces/PersonaModel");
 
 import mongoose = require("mongoose");
 

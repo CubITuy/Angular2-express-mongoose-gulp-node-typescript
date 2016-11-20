@@ -1,5 +1,5 @@
 {
-  "name": "angular2-express-mongo",
+  "name": "AppSalud",
   "version": "1.0.0",
   "description": "Angular2, Mongo, Gulp, Typescript and Express",
   "scripts": {
@@ -23,7 +23,7 @@
   "author": "Moiz Kachwala",
   "license": "MIT",
   "dependencies": {
-	  "@angular/common": "~2.1.0",
+	"@angular/common": "~2.1.0",
     "@angular/compiler": "~2.1.0",
     "@angular/core": "~2.1.0",
     "@angular/forms": "~2.1.0",
