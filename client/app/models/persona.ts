@@ -2,10 +2,8 @@
  * Created by Martín Sabatella on 19-11-2016.
  */
 
-import mongoose = require("mongoose");
-
-interface PersonaModel extends mongoose.Document {
-
+export class Persona {
+    _id: string;
     ci: string;
     primerNombre: string;
     segundoNombre: string;
@@ -17,7 +15,4 @@ interface PersonaModel extends mongoose.Document {
     fechaEmitido: Date;
     fechaVencimiento: Date;
     nacionalidad: string;
-
 }
-
-export = PersonaModel;

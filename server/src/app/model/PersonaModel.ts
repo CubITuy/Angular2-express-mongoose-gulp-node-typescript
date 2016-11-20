@@ -11,11 +11,7 @@ class PersonaModel {
     constructor(personaModel: IPersonaModel) {
         this._personaModel = personaModel;
     }
-/*
-    get id(): number {
-        return this._personaModel.id;
-    }
-*/
+
     get ci(): string {
         return this._personaModel.ci;
     }
@@ -59,55 +55,6 @@ class PersonaModel {
     get nacionalidad(): string {
         return this._personaModel.nacionalidad;
     }
-    
-    /*
-    set id(id: string): void {
-        this._personaModel.id = id;
-    }
-
-    set ci(ci: string): void {
-        this._personaModel.ci = ci;
-    }
-
-	set primerNombre(primerNombre: string): void {
-        this._personaModel.primerNombre = primerNombre;
-    }
-    
-    set segundoNombre(segundoNombre): void {
-        this._personaModel.segundoNombre = segundoNombre;
-    }
-
-    set primerApellido(primerApellido: string): void {
-        this._personaModel.primerApellido = primerApellido;
-    }
-
-    set segundoApellido(segundoApellido: string): void {
-        this._personaModel.segundoApellido = segundoApellido;
-    }
-
-    set observaciones(observaciones: string): void {
-        this._personaModel.observaciones = observaciones;
-    }
-
-    set fechaNacimiento(fechaNacimiento: Date): void {
-        this._personaModel.fechaNacimiento = fechaNacimiento;
-    }
-
-    set sexo(sexo: string): void {
-        this._personaModel.sexo = sexo;
-    }
-
-    set fechaEmitido(fechaEmitido: Date): void {
-        this._personaModel.fechaEmitido = fechaEmitido;
-    }
-
-    set fechaVencimiento(fechaVencimiento: Date): void {
-        this._personaModel.fechaVencimiento = fechaVencimiento;
-    }
-
-    set nacionalidad(nacionalidad: string): void {
-        this._personaModel.nacionalidad = nacionalidad;
-    }*/
     
 }
 Object.seal(PersonaModel);

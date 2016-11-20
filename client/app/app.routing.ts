@@ -4,6 +4,9 @@ import { DashboardComponent }   from './components/dashboard/dashboard.component
 import { HeroesComponent }      from './components/heroes/heroes.component';
 import { HeroDetailComponent }  from './components/heroDetail/hero-detail.component';
 
+import { PersonasComponent }      from './components/personas/personas.component';
+import { PersonaDetailComponent }  from './components/personaDetail/persona-detail.component';
+
 const appRoutes: Routes = [
   {
     path: '',
@@ -21,6 +24,14 @@ const appRoutes: Routes = [
   {
     path: 'heroes',
     component: HeroesComponent
+  },
+  {
+    path: 'personadetail/:id',
+    component: PersonaDetailComponent
+  },
+  {
+    path: 'personas',
+    component: PersonasComponent
   }
 ];
 

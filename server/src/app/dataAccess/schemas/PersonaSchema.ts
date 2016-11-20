@@ -12,10 +12,6 @@ class PersonaSchema {
 
     static get schema() {
         var schema = mongoose.Schema({
-            /*id: {
-                type: Number,
-                required: true
-            },*/
             ci: {
                 type: String,
                 required: true

@@ -10,7 +10,11 @@ import { HeroesComponent }      from './components/heroes/heroes.component';
 import { DashboardComponent }   from './components/dashboard/dashboard.component';
 import { HeroDetailComponent }  from './components/heroDetail/hero-detail.component';
 
+import { PersonasComponent }      from './components/personas/personas.component';
+import { PersonaDetailComponent }  from './components/personaDetail/persona-detail.component';
+
 import { HeroService }  from './services/hero.service';
+import { PersonaService }  from './services/persona.service';
 
 @NgModule({
   imports: [
@@ -23,10 +27,13 @@ import { HeroService }  from './services/hero.service';
     AppComponent,
     HeroesComponent,
     DashboardComponent,
-    HeroDetailComponent
+    HeroDetailComponent,
+    PersonasComponent,
+    PersonaDetailComponent
   ],
   providers: [
-    HeroService
+    HeroService,
+    PersonaService
   ],
   bootstrap: [AppComponent]
 })

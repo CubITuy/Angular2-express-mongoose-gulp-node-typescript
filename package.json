@@ -23,7 +23,7 @@
   "author": "Moiz Kachwala",
   "license": "MIT",
   "dependencies": {
-	"@angular/common": "~2.1.0",
+    "@angular/common": "~2.1.0",
     "@angular/compiler": "~2.1.0",
     "@angular/core": "~2.1.0",
     "@angular/forms": "~2.1.0",
@@ -32,7 +32,6 @@
     "@angular/platform-browser-dynamic": "~2.1.0",
     "@angular/router": "~3.1.0",
     "@angular/upgrade": "~2.1.0",
-
     "body-parser": "^1.15.2",
     "bootstrap": "^3.3.7",
     "core-js": "^2.4.1",
@@ -63,4 +62,4 @@
     "url": "https://github.com/moizKachwala/Angular2-expressjs-mongoose-gulp-node-typescript/issues"
   },
   "homepage": "https://github.com/moizKachwala/Angular2-expressjs-mongoose-gulp-node-typescript#readme"
-} 
+}
